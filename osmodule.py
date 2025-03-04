@@ -1,2 +1,3 @@
 import os
-print (dir(os))
+#printing current directory 
+print (os.getcwd())
