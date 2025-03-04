@@ -1,5 +1,5 @@
 import os
-#changing working directory
-print (os.getcwd())
+#checking the files and directories 
+
 os.chdir('\Users\User\Desktop\Python\projectone')
-print (os.getcwd())
+print (os.listdir())
