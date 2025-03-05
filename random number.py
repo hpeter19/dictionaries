@@ -1,7 +1,10 @@
-#printing a random number in python
+#rock paper scissors game using choice
 import random
-#you can also store random as intergers
-low =1
-high =200
-number = random.randint(low,high)
-print (number)
+low = 1
+high = 20
+options =("rock","odion","scissors")
+
+#number = random.randint(low, high)
+#number= random.random()
+option= random.choice(options)
+print (option)
