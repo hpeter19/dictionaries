@@ -3,5 +3,7 @@ import openpyxl as xl
 wb = xl.load_workbook('transactions.xlsx')
 sheet= wb['Sheet1']
 cell = sheet ['b2']
-print(cell.value)
-#checking the value of a cell
+
+print(sheet.max_row)
+print(sheet.max_column)
+#checking the number of rows and columns on a spredsheet
