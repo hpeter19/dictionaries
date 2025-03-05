@@ -6,16 +6,11 @@ int main()
  {
 float Number,squareroot;
 cout<<"Enter a Number: " "\n";
-cin>>Number
+cin>>Number;
 squareroot = sqrt(Number);
 cout<<"The square root of Number is: " "\n";
 cout<< squareroot;
 return 0;
 
+ }
 
-
-
-
-
-
-}
