@@ -1,4 +1,4 @@
-
+#Shopping cart program using python
 
 foods = []
 prices= []
