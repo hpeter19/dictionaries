@@ -1,9 +1,3 @@
-//The fibonacci function is a recursive function that calculates the nth Fibonacci number:
-//Base case: If n == 0 or n == 1, it returns n because the 0th Fibonacci number is 0, and the 1st Fibonacci number is 1.
-//Recursive case: For values of n > 1, it calls the function recursively to compute fibonacci(n - 1) + fibonacci(n - 2).
-//The main function asks the user how many terms of the Fibonacci sequence they want to print, and then it prints the sequence up to that number of terms.
-
-
 #include<iostream>
 using namespace std;
 
