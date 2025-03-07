@@ -3,6 +3,6 @@ groceries = [["Oranges","Mangoes","Oranges"],
  ["Sukuma","Spinach","potatoes"],
 ["Chicken","Pork","Beef"]]
 
-
-#printing item on row 3 index 2
-print (groceries[2][2])
+#Iterating over the rows
+for collection in groceries:
+    print(collection)
