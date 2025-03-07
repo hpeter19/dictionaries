@@ -6,4 +6,5 @@ groceries = [["Oranges","Mangoes","Oranges"],
 #printing every item on our loop using nested for loops
 for collection in groceries:
     for food in collection:
-        print(food)#these will print each item in a vertical manner
+        print(food, end=" ")#these will print each item in a vertical manner
+      print()  
