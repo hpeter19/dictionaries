@@ -3,6 +3,7 @@ groceries = [["Oranges","Mangoes","Oranges"],
  ["Sukuma","Spinach","potatoes"],
 ["Chicken","Pork","Beef"]]
 
-#Iterating over the rows
+#printing every item on our loop using nested for loops
 for collection in groceries:
-    print(collection)
+    for food in collection:
+        print(food)#these will print each item in a vertical manner
