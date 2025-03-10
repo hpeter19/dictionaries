@@ -6,7 +6,7 @@
 
 def address_name(**kwargs):
     for key in kwargs.keys():
-        print(value)
+        print(key)
 address_name(street="23 Molo",
              city="Nairobi",
              state="Nakuru",
