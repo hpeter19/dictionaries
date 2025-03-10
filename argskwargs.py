@@ -1,18 +1,26 @@
 # args -allows you to pass multiple non -key arguments
 # kwargs - allows you to pass multiple keyword -arguments
 # *unpacking character
-# item method returns key value pairs
+# the function is designed to accept both arguments
+# args comes first followed n=by kwargs
+#iterating over positional arguments first
+#using both args and kwargs
 
 
-def address_name(**kwargs):
-    for key,values in kwargs.items():
-        print(f"{key},{values}")
-address_name(street="23 Molo",
-             city="Nairobi",
-             state="Nakuru",
-             zip="20100")
+def shipping_label(*args,  **kwargs):
+    for arg in args:
+        print(arg, end=" ")
+    print()
+    # iterating in the keyword arguments
+    for value in kwargs.values():
+        print(value, end=" ")
 
+        
 
-
-
+shipping_label("Mr","Paul","Jan",
+street = "23 Molo",
+city = "Nairobi",
+state = "Nakuru",
+zip = "20100",
+)
 
