@@ -1,11 +1,11 @@
 # args -allows you to pass multiple non -key arguments
 # kwargs - allows you to pass multiple keyword -arguments
 # *unpacking character
-# printing values using kwargs
+# printing keys  using kwargs
 
 
 def address_name(**kwargs):
-    for value in kwargs.values():
+    for key in kwargs.keys():
         print(value)
 address_name(street="23 Molo",
              city="Nairobi",
