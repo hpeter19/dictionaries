@@ -1,11 +1,18 @@
 # args -allows you to pass multiple non -key arguments
 # kwargs - allows you to pass multiple keyword -arguments
 # *unpacking character
-# args in accepting multiple names
-def display_name(*args):
-    for arg in args:
-        print(arg, end=" ")
+# printing values using kwargs
 
-display_name("Mr.","Jake ","Paul")
+
+def address_name(**kwargs):
+    for value in kwargs.values():
+        print(value)
+address_name(street="23 Molo",
+             city="Nairobi",
+             state="Nakuru",
+             zip="20100")
+
+
+
 
 
