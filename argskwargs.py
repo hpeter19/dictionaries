@@ -3,8 +3,8 @@
 # *unpacking character
 # the function is designed to accept both arguments
 # args comes first followed n=by kwargs
-#iterating over positional arguments first
 #using both args and kwargs
+# using formatted string instead of loops
 
 
 def shipping_label(*args,  **kwargs):
