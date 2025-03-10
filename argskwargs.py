@@ -1,8 +1,12 @@
 # args -allows you to pass multiple non -key arguments
 # kwargs - allows you to pass multiple keyword -arguments
 # *unpacking character
-#add function takes only two arguments
+# args enables you to add multiple values
+def add(*args):
+        total= 0
+        for arg in args:
+            total+= arg
+        return total    
+print(add(1,4,5))
 
-def add(a,b):
-    return a+b
-print(add(1,3))
+    
