@@ -1,4 +1,4 @@
-numbers =[1,2,3,4,5]
-
-for item in reversed(numbers):
-    print(item)
+my_dictionary ={"A":1,"B":2,"C":3}
+for key in my_dictionary.values():
+    print(key)
+    #printing key values in a dictionary"
