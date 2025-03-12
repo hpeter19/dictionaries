@@ -1,5 +1,7 @@
-my_dictionary ={"A":1,"B":2,"C":3}
-for key,value in my_dictionary.items():
-    print(f"{key}--{value}")
-    #printing both the key and values in a dictionary"
-    #using f strings
+word = "APPLE"
+letter =input("Guess a letter in the secret word:")
+
+if letter in word:
+    print(f"there is a {letter}")
+else:
+    print(f"{letter} was not found")    
