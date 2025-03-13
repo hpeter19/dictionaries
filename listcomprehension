@@ -1,4 +1,6 @@
-fruits = ["Mango","Banana","Orange","Apple"]
-fruit_char= [fruit[0] for fruit in fruits]
+numbers =[1,-2,3,-3,-5,-4,6,8,99]
+positive_nums =[num for num in numbers if num>=0]
 
-print(fruit_char)
+print(positive_nums)
+#expression for value in iterable if condition
+#returns positive integers 
