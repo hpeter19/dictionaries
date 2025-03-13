@@ -1,6 +1,7 @@
 numbers =[1,-2,3,-3,-5,-4,6,8,99]
 positive_nums =[num for num in numbers if num>=0]
+negative_nums =[num for num in numbers if num< 0]
 
-print(positive_nums)
+print(negative_nums)
 #expression for value in iterable if condition
-#returns positive integers 
+#printing positive numbers in a list
