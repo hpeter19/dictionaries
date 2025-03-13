@@ -1,8 +1,4 @@
+fruits = ["Mango","Banana","Orange","Apple"]
+fruit_char= [fruit[0] for fruit in fruits]
 
-#list comprehension
-doubles =[ x *2  for x in range (1,11)]
-triples =[ y *3  for y in range (1,11)]
-square =[ z *z  for z in range (1,11)]
-
-print(square)
-#multiplying each value by 3 to produce a list
+print(fruit_char)
