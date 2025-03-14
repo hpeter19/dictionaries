@@ -1,24 +1,18 @@
 #DAY OF THE WEEK
-from tkinter.messagebox import RETRY
 
+#USING OR '|' TO GROUP TOGETHER TRUE AND FALSE VALUES
 
 def is_weekend(day):
     match day :
-        case "SUNDAY":
+        case "SUNDAY" | "SATURDAY":
             return True
-        case "MONDAY":
+        case "MONDAY" | "TUESDAY"| "WEDNESDAY" | "THURSDAY" | "FRIDAY":
             return False
-        case "TUESDAY":
-            return False
-        case "WEDNESDAY":
-            return False
-        case "THURSDAY":
-            return False
-        case "FRIDAY":
-            return False
-        case "SATURDAY":
-            return True
         case _:
             return False
-print(is_weekend("MONDAY"))
+print(is_weekend("TUESDAY"))
+
+
+
+
 
