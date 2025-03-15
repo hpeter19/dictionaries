@@ -1,14 +1,7 @@
-#finding out  a future date
 import datetime
+from datetime import timedelta
 
-tday = datetime.date.today()
-
+dt =datetime.datetime(2025,3,15,11,42,33,19973)
 tdelta =datetime.timedelta(days=7)
-
-print(tday + tdelta)
-
-bday = datetime.date(2025,11,10)
-
-till_bday =bday -tday
-#prints the amount of seconds to an event
-print(till_bday.total_seconds())
+print(dt + tdelta)
+#printing both time and date
