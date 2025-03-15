@@ -1,5 +1,6 @@
 #printing todays date
 import datetime
 
-day = datetime.date.today()
-print(day)
+tday = datetime.date.today()
+#printing the day itself add .day
+print(tday.day)
