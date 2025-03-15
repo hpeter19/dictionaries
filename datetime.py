@@ -1,9 +1,14 @@
-
-#printing the date of the next week
+#finding out  a future date
 import datetime
 
 tday = datetime.date.today()
 
 tdelta =datetime.timedelta(days=7)
-#knowing what day was 7 days ago
-print(tday - tdelta)
+
+print(tday + tdelta)
+
+bday = datetime.date(2025,11,10)
+
+till_bday =bday -tday
+
+print(till_bday)
