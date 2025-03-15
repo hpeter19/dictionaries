@@ -10,5 +10,5 @@ print(tday + tdelta)
 bday = datetime.date(2025,11,10)
 
 till_bday =bday -tday
-
-print(till_bday)
+#prints the amount of seconds to an event
+print(till_bday.total_seconds())
