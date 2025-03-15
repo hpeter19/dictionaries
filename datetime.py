@@ -1,6 +1,9 @@
-#printing todays date
+
+#printing the date of the next week
 import datetime
 
 tday = datetime.date.today()
-#printing the day itself add .day
-print(tday.day)
+
+tdelta =datetime.timedelta(days=7)
+
+print(tday + tdelta)
