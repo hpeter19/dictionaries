@@ -1,8 +1,13 @@
-#printing characters in astring
-#name = input("Enter your Names:")
-phone_number =input("Enter your phone number")
-#replaces the characters in a given string
-phone_number=phone_number.replace('-'," ")
+
+#basic user login 
+username=input("Enter your names:")
 
 
-print(phone_number)
+if len(username) > 12:
+    print("username must be less than 12 characters")
+elif not username.find(" ") == -1:
+    print("username cannot contain spaces")
+elif not username.isalpha():
+    print("username cannot contain digits")       
+else:
+    print(f"welcome{username}")    
