@@ -1,8 +1,8 @@
 #printing characters in astring
-name = input("Enter your Names:")
+#name = input("Enter your Names:")
+phone_number =input("Enter your phone number")
+#counts hoe many characters are within a string
+result =phone_number.count('-')
 
-#result=len(name)
-#returns true if a string has characters only
-result = name.isalpha()
 
 print(result)
