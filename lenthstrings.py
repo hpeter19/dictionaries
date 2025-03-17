@@ -1,8 +1,8 @@
 #printing characters in astring
 #name = input("Enter your Names:")
 phone_number =input("Enter your phone number")
-#counts hoe many characters are within a string
-result =phone_number.count('-')
+#replaces the characters in a given string
+phone_number=phone_number.replace('-'," ")
 
 
-print(result)
+print(phone_number)
