@@ -2,7 +2,7 @@
 name = input("Enter your Names:")
 
 #result=len(name)
-#returns true if a string has a digit only,
-result = name.isdigit()
+#returns true if a string has characters only
+result = name.isalpha()
 
 print(result)
