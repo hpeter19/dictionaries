@@ -2,7 +2,7 @@
 name = input("Enter your Names:")
 
 #result=len(name)
-#capitilizing the whole string in undercase
-name = name.lower()
+#returns true if a string has a digit,otherwise false
+result = name.isdigit()
 
-print(name)
+print(result)
