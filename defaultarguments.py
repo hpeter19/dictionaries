@@ -1,6 +1,5 @@
+#printing n aphone number using keywords arguments
 
-#Keyword Arguments
-def hello(greeting,title,first,last):
-    print(f"{greeting} {title} {first} {last}")
-
-hello("GOOD MORNING", title="Dr.", first="Margarete", last="Salama")
+def get_phone(country,area,first,last):
+    return f"{country} {area} {first} {last}"
+phone_num =get_phone(country=254,area=23,first=341,last=78)
