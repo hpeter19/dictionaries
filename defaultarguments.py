@@ -1,8 +1,6 @@
 #arbitrary Argument
-#args in numbers
-def add(*args):
-    total=0
+#Aruments for words
+def display_jina(*args):
     for arg in args:
-        total +=arg
-    return total
-print(add(122,122,133))
+        print(arg,end=" ")
+display_jina("Mark","Ngotho")
