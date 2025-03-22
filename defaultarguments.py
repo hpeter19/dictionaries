@@ -1,6 +1,11 @@
 #arbitrary Argument
-#Aruments for words
-def display_jina(*args):
-    for arg in args:
-        print(arg,end=" ")
-display_jina("Mark","Ngotho")
+#Kwargs
+#values in an kwargs
+def address_info(**kwargs):
+    for value in kwargs.values():
+        print(value)
+
+address_info(street="Mungoni",
+             city="Chuka",
+             state="Ndagani",
+             zip=2389)
