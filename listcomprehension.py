@@ -1,5 +1,10 @@
 nums =[1,2,3,4,5,6,7,8,9]
 
-my_list= [(letter,num) for letter in "abcd" for num in range(4)]
-print(my_list)
-#using compression to print out pairs
+names=['Martin','Mark','Folix','Ann','Mary']
+heroes=['Batman','Spiderman','Hulk','Deadpool','Batman' ]
+
+my_dict= {}
+for names,heroes in  zip(names,heroes):
+    my_dict[names]= heroes
+print(my_dict)
+#creating a pair of values in a dictionary using the zip method to generate alist
