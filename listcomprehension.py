@@ -1,9 +1,10 @@
-nums =[1,2,3,4,5,6,7,8,9]
+nums =[1,2,3,4,5,6,7,8,9,10,11,1,2,2]
 
-names=['Martin','Mark','Folix','Ann','Mary']
-heroes=['Batman','Spiderman','Hulk','Deadpool','Batman' ]
+my_set=set()
 
-my_dict= {name:hero for name ,hero in zip(names,heroes) if name !='Mark' }
+for set in nums:
+    my_set.add(set)
 
-print(my_dict)
-#using compression to form a list from two lists of data
+print(my_set)
+#set prints only unique values
+
