@@ -1,6 +1,6 @@
 nums =[1,2,3,4,5,6,7,8,9]
 
-my_list=[num for num in nums if num%2 == 0]
+my_list= list(filter( lambda num: num%2 == 0,nums))
 
 print(my_list)
-#modulus using compression method
+#using lambda to find modulus
