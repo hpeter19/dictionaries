@@ -1,5 +1,6 @@
 import random
 
-value =random.randint(1,7)
-print(value)
-#printing random integers between 1&7
+greetings =["hello","sasa","Niaje","Nango","Musangarire"]
+value=random.choice(greetings)
+print(value +", Njosh!")
+#random strings
