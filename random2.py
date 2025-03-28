@@ -1,6 +1,6 @@
 import random
 
 deck=list(range (1,53))
-random.shuffle(deck)
-print(deck)
-#random shuffling
+hand =random.sample(deck, k=5)
+print(hand)
+#random values from a list, unique
