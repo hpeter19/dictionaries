@@ -1,7 +1,6 @@
 import random
 
-colors =["Orange","White","Pink"]
-
-results=random.choices(colors, weights=[18,12,5], k=10)
-
-print(results)
+deck=list(range (1,53))
+random.shuffle(deck)
+print(deck)
+#random shuffling
