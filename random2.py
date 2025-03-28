@@ -1,6 +1,7 @@
 import random
 
-greetings =["hello","sasa","Niaje","Nango","Musangarire"]
-value=random.choice(greetings)
-print(value +", Njosh!")
-#random strings
+colors =["Orange","White","Pink"]
+
+results=random.choices(colors, weights=[18,12,5], k=10)
+
+print(results)
