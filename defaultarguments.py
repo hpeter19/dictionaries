@@ -12,4 +12,4 @@ address_info(street="Mungoni",
              zip=2389)
 def citty_info
    for key,value in kwargs.items():
-       print
+       print citty_info;
