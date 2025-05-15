@@ -23,4 +23,5 @@ city = "Nairobi",
 state = "Nakuru",
 zip = "20100",
 )
+shipping _price 
 
