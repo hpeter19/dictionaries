@@ -42,6 +42,24 @@ class ConcessionStand:
     
     def update_sales(self, total):
         self.sales += total
+        def main():
+    stand = ConcessionStand()
+    
+    while True:
+        stand.display_menu()
+        order = stand.take_order()
+        
+        if order:
+            total = stand.calculate_total(order)
+            stand.print_receipt(order, total)
+            stand.update_sales(total)
+        
+        another_order = input("\nWould you like to take another order? (yes/no): ").lower()
+        if another_order != 'yes':
+            break
+    
+    stand.show_sales()
+    print("Thank you for visiting the 
 
     def show_sales(self):
         print(f"\nTotal Sales: ${self.sales:.2f}")
