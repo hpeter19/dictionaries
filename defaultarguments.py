@@ -18,3 +18,7 @@ def citty_info
    for key,value in kwargs.items():
        print citty_info;
 
+def citty_info
+   for key,value in kwargs.items():
+       print citty_info;
+
