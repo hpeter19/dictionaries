@@ -28,4 +28,9 @@ address_info(street="Mungoni",
              state="Ndagani",
              zip=2389)
 def citty_info
+address_info(street="Mungoni",
+             city="Chuka",
+             state="Ndagani",
+             zip=2389)
+def citty_info
 
