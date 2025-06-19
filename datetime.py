@@ -9,6 +9,9 @@ for pz in pytz.all_timezones:
 import pytz
 from datetime import timedelta
 
+import pytz
+from datetime import timedelta
+
 
 
 #getting names of all utc timezone
