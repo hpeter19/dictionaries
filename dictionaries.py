@@ -14,3 +14,5 @@ else:
 ##printing name and grades in a dictionary
 else:
     print(f"{student} was not found")
+else:
+    print(f"{student} was not found
