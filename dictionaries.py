@@ -1,4 +1,4 @@
-grades = {"Sandy":"A","Mark":"B","Mary":"A","Gilbert":"C"}
+kgrades = {"Sandy":"A","Mark":"B","Mary":"A","Gilbert":"C"}
 
 student=input("Enter the name of the student: ")
 
@@ -20,3 +20,11 @@ else:
     print(f"{student} was not found")
 else:
     print(f"{student} was not found
+else:
+    print(f"{student} was not found")
+else:
+    print(f"{student} was not found
+else:
+    print(f"{student} was not found")
+else:
+    print(f"{student} was not 
