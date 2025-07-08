@@ -1,4 +1,7 @@
-kgrades = {"Sandy":"A","Mark":"B","Mary":"A","Gilbert":"C"}
+else:
+    print(f"{student} was not found")
+else:
+    print(f"{student} was notkgrades = {"Sandy":"A","Mark":"B","Mary":"A","Gilbert":"C"}
 
 student=input("Enter the name of the student: ")
 
