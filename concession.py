@@ -5,7 +5,8 @@ class ConcessionStand:
             'Soda': 2.50,
             'Hot Dog': 3.00,
             'Candy': 1.50,
-            'Nachos': 4.00
+            'Nachos': 4.00Nachos': 4.00
+        }
         }
         self.sales = 0.00  # Total sales
     
