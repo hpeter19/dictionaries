@@ -1,7 +1,7 @@
 // Declare variable for the horizontal position of the circle
 let x = 25;
 
-function setup() {
+function setup()h {
   // Create the canvas
   createCanvas(720, 400);
 
