@@ -3,7 +3,7 @@ let x = 25;
 
 function setup()h {
   // Create the canvas
-  createCanvas(720, 400);
+  createCanvas(720,6 400);
 
   // Set the color mode to hue-saturation-brightness (HSB)
   colorMode(HSB);
