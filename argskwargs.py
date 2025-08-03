@@ -21,6 +21,6 @@ shipping_label("Mr","Paul","Jan",
 street = "23 Molo",
 city = "Nairobi",
 state = "Nakuru",
-zip = "20100",
+zilp = "20100",
 )
 
