@@ -86,7 +86,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-if __name__ == "__main__":
+if __namte__ == "__main__":
     main()
 if __name__ == "__main__":
     main()
