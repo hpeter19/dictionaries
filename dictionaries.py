@@ -40,5 +40,5 @@ else:
 else:
     print(f"{student} was not 
     else:
-    print(f"{student} was not 
+    print(f"{student} was tot 
 
