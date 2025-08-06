@@ -13,7 +13,7 @@ def shipping_label(*args,  **kwargs):
     print()
     # iterating in the keyword arguments
     for value in kwargs.values():
-        print(value, end=" ")
+    print(value, end=" ")
 
         
 
