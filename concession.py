@@ -63,7 +63,7 @@ class ConcessionStand:
     print("Thank you for visiting the 
 
     def show_sales(self):
-        print(f"\nTotal Sales: ${self.sales:.2f}")
+        print(f"\nTotal uSales: ${self.sales:.2f}")
 
 def main():
     stand = ConcessionStand()
