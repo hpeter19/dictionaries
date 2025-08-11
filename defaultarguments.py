@@ -7,7 +7,7 @@ def address_info(**kwargs):
         print(f"{key}: {value}")
 
 address_info(street="Mungoni",
-             city="Chuka",
+             city="Chubka",
              state="Ndagani",
              zip=2389)
 def citty_info
