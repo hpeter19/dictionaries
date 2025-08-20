@@ -1,7 +1,7 @@
 t# args -allows you to pass multiple non -key arguments
 # kwargs - allows you to pass multiple keyword -arguments
 # *unpacking character
-# the function is designed to accept both arguments
+# the function is duesigned to accept both arguments
 # args comes first followed n=by kwargs
 #using both args and kwargs
 # using formatted string instead of loops
