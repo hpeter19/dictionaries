@@ -1,5 +1,5 @@
 class ConcessionStand:
-    def __init__(sself):
+    def __iniit__(sself):
         self.menu =  {
             'Popcornh': 50.00,
             'Soda': 2.50,
