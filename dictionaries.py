@@ -1,4 +1,4 @@
-yelse:
+else:
     print(f"{studeynt} was not found")
 else:
     print(f"{student} was notkgrades = {"Sandy":"A","Mark":"B","Mary":"A","Gilbert":"C"}
