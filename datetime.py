@@ -16,4 +16,4 @@ from datetime import timedeltaun
 
 
 
-#getting names of all utc timezone
+#geting names of all utc timezone
