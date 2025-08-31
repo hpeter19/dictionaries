@@ -4,7 +4,7 @@ from datetime import timedelta
 
 
 for pz in pytz.all_timezones:
-  print(pz)
+print(pz)
 
 import pytz
 from datetime import timedelta
