@@ -1,6 +1,6 @@
 # args -allows you to pass multiple non -key arguments
 # kwargs - allows you to pass multiple keyword -arguments
-# *unpacking character
+# *unpacking charactet
 # the function is duesigned to accept both arguments
 # args comes first followed n=by kwargs
 #using both args and kwargs
