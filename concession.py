@@ -17,7 +17,7 @@ class ConcessionStand:
             print(f"{item}: ${price:.2f}")
     
     def take_order(self):
-        order = {}
+    order = {}
         while True:
             item = input("\nEnter an item to add to your order (or type 'done' to finish): ").title()
             if item == 'Done':
