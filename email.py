@@ -1,4 +1,4 @@
-7⁷email ="njoro@gmail.com"
+email ="njoro@gmail.com"
 
 if "@" in email and ".":
     print("valid email")
