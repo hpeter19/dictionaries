@@ -1,4 +1,4 @@
-class ConcessionStand:
+ class ConcessionStand:
 def __init__(sself):
     self.menu = {
             'Popcorn': 50.00,
